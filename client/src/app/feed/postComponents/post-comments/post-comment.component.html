@@ -1,0 +1,13 @@
+<div>Comments: </div>
+<input type="text" placeholder="new comment">
+<button type="submit">Add Comment</button>
+<div id="comment" *ngFor="let comment of comments">
+    <hr>
+    <div>
+      <span>{{comment.UserCommented}}:</span>
+      <br>
+      <span id="text">
+        {{comment.Text}}
+      </span>
+    </div>
+</div>

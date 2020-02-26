@@ -1,0 +1,28 @@
+<form [formGroup]= "filterFormGroup" class="formContainer" method="GET" (ngSubmit)='search()' >
+    <h2 id="title">Filter Feed</h2>
+    <div class="marginForm">
+        <label>Date From: </label>
+        <input type="date" formControlName="DateFrom">
+    </div>
+    <div class="marginForm">
+        <label>Date To: </label>
+        <input type="date" formControlName="DateTo"> 
+    </div>
+    <div class="marginForm">
+        <label>Radius From Current Location: </label>
+        <input id="radiusLocation" type="number">
+    </div>
+    <div class="marginForm">
+        <label>Image Tags: </label>
+        <input type="text">
+    </div>
+    <div class="marginForm">
+        <label>Tagged Users: </label>
+        <select>
+            <option></option>
+        </select>
+    </div>
+    <div class="marginForm">
+        <button type="submit">Search</button>
+    </div>
+</form>

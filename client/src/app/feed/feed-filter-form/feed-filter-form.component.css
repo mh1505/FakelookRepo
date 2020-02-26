@@ -1,0 +1,17 @@
+.marginForm{
+    margin: 20px;
+}
+#title {
+    text-align: center;
+    text-decoration: underline;
+}
+.formContainer{
+    background-color: cadetblue;
+    width: 300px;
+}
+#radiusLocation{
+    width: 50px;
+}
+input{
+    text-align: center;
+}
